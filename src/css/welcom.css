@@ -1,0 +1,67 @@
+.welcome {
+  padding: 54px 0 100px;
+  background: url("../images/welcome/bj.png") bottom center/contain no-repeat;
+}
+.welcome__title {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 130%;
+  text-align: center;
+  color: #23283B;
+  margin: 20px 0 42px;
+}
+.welcome__video {
+  padding: 180px 0;
+  display: flex;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  max-width: 770px;
+  width: 100%;
+  margin: 0 auto;
+  background: url("../images/welcome/video.png") center/cover no-repeat;
+  position: relative;
+}
+.welcome__video::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #3035C3;
+  opacity: 0.6;
+  border-radius: 12px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  z-index: 5;
+}
+.welcome__video-play {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  position: relative;
+  z-index: 6;
+  border-radius: 50%;
+  font-size: 30px;
+  cursor: pointer;
+}
+.welcome__video-play:hover {
+  background: #E6514A;
+  border: 3px solid white;
+}
+.welcome__video-play:hover div {
+  background-color: white;
+}
+.welcome__video-play div {
+  width: 50px;
+  height: 50px;
+  background: #3035C3;
+  clip-path: polygon(32% 9%, 97% 51%, 32% 88%);
+}
+
+/*# sourceMappingURL=welcom.css.map */

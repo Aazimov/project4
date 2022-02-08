@@ -1,0 +1,126 @@
+.team{
+  padding: 50px 0 90px;
+
+  &__row {
+    display: flex;
+
+
+    &-first {
+      width: 90%;
+    }
+  }
+  &__icon{
+    display: flex;
+    column-gap: 90px;
+    width: 8px;
+    height: 16px;
+  }
+
+  &__list {
+    display: flex;
+    column-gap: 60px;
+  }
+
+  &__link{
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    color: #1A0A03;
+    opacity: 0.7;
+    margin-bottom: 60px;
+  }
+
+
+  &__descr{
+    font-family: Source Serif Pro,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #EE5514;
+    margin-bottom: 13px;
+  }
+
+  &__title{
+    font-family: Source Serif Pro,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 130%;
+    color: #1A0A03;
+    margin-bottom: 18px;
+  }
+
+  &__card{
+    display: flex;
+    column-gap: 30px;
+    &_title{
+      font-family: Source Serif Pro,sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 150%;
+      color: #1A0A03;
+      margin-bottom: 10px;
+    }
+
+    &_list{
+      display: flex;
+      column-gap: 10px;
+      margin-bottom: 10px;
+    }
+    &_list2{
+      display: flex;
+      column-gap: 10px;
+      margin-bottom: 10px;
+    }
+    &_text{
+      font-family: Poppins,sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 160%;
+      color: #1A0A03;
+      opacity: 0.7;
+    }
+    &_desc{
+      font-family: Poppins,sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 160%;
+      color: #1A0A03;
+      opacity: 0.8;
+    }
+
+  }
+  &__info {
+    text-align: center;
+    &_button {
+      width: 137px;
+      height: 59px;
+      background: #EE5514;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 15px 30px;
+      border-radius: 5px;
+      border: none;
+      font-family: Poppins, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 160%;
+      color: #FFFFFF;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 0px 10px;
+    }
+  }
+ 
+}
